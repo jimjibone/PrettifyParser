@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A455A84166795A700AAAFB1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A455A83166795A700AAAFB1 /* Cocoa.framework */; };
+		1A455A8E166795A700AAAFB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A455A8C166795A700AAAFB1 /* InfoPlist.strings */; };
+		1A455A90166795A700AAAFB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A455A8F166795A700AAAFB1 /* main.m */; };
+		1A455A94166795A700AAAFB1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1A455A92166795A700AAAFB1 /* Credits.rtf */; };
+		1A455A97166795A700AAAFB1 /* JRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A455A96166795A700AAAFB1 /* JRAppDelegate.m */; };
+		1A455A9A166795A700AAAFB1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A455A98166795A700AAAFB1 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A455A7F166795A700AAAFB1 /* PrettifyParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrettifyParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A455A83166795A700AAAFB1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1A455A86166795A700AAAFB1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1A455A87166795A700AAAFB1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1A455A88166795A700AAAFB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A455A8B166795A700AAAFB1 /* PrettifyParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrettifyParser-Info.plist"; sourceTree = "<group>"; };
+		1A455A8D166795A700AAAFB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A455A8F166795A700AAAFB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A455A91166795A700AAAFB1 /* PrettifyParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrettifyParser-Prefix.pch"; sourceTree = "<group>"; };
+		1A455A93166795A700AAAFB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1A455A95166795A700AAAFB1 /* JRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRAppDelegate.h; sourceTree = "<group>"; };
+		1A455A96166795A700AAAFB1 /* JRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRAppDelegate.m; sourceTree = "<group>"; };
+		1A455A99166795A700AAAFB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A455A7C166795A700AAAFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A455A84166795A700AAAFB1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A455A74166795A700AAAFB1 = {
+			isa = PBXGroup;
+			children = (
+				1A455A89166795A700AAAFB1 /* PrettifyParser */,
+				1A455A82166795A700AAAFB1 /* Frameworks */,
+				1A455A80166795A700AAAFB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A455A80166795A700AAAFB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A455A7F166795A700AAAFB1 /* PrettifyParser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A455A82166795A700AAAFB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A455A83166795A700AAAFB1 /* Cocoa.framework */,
+				1A455A85166795A700AAAFB1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A455A85166795A700AAAFB1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A455A86166795A700AAAFB1 /* AppKit.framework */,
+				1A455A87166795A700AAAFB1 /* CoreData.framework */,
+				1A455A88166795A700AAAFB1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1A455A89166795A700AAAFB1 /* PrettifyParser */ = {
+			isa = PBXGroup;
+			children = (
+				1A455A95166795A700AAAFB1 /* JRAppDelegate.h */,
+				1A455A96166795A700AAAFB1 /* JRAppDelegate.m */,
+				1A455A98166795A700AAAFB1 /* MainMenu.xib */,
+				1A455A8A166795A700AAAFB1 /* Supporting Files */,
+			);
+			path = PrettifyParser;
+			sourceTree = "<group>";
+		};
+		1A455A8A166795A700AAAFB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A455A8B166795A700AAAFB1 /* PrettifyParser-Info.plist */,
+				1A455A8C166795A700AAAFB1 /* InfoPlist.strings */,
+				1A455A8F166795A700AAAFB1 /* main.m */,
+				1A455A91166795A700AAAFB1 /* PrettifyParser-Prefix.pch */,
+				1A455A92166795A700AAAFB1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A455A7E166795A700AAAFB1 /* PrettifyParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A455A9D166795A700AAAFB1 /* Build configuration list for PBXNativeTarget "PrettifyParser" */;
+			buildPhases = (
+				1A455A7B166795A700AAAFB1 /* Sources */,
+				1A455A7C166795A700AAAFB1 /* Frameworks */,
+				1A455A7D166795A700AAAFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrettifyParser;
+			productName = PrettifyParser;
+			productReference = 1A455A7F166795A700AAAFB1 /* PrettifyParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A455A76166795A700AAAFB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JR;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "James Reuss";
+			};
+			buildConfigurationList = 1A455A79166795A700AAAFB1 /* Build configuration list for PBXProject "PrettifyParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A455A74166795A700AAAFB1;
+			productRefGroup = 1A455A80166795A700AAAFB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A455A7E166795A700AAAFB1 /* PrettifyParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A455A7D166795A700AAAFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A455A8E166795A700AAAFB1 /* InfoPlist.strings in Resources */,
+				1A455A94166795A700AAAFB1 /* Credits.rtf in Resources */,
+				1A455A9A166795A700AAAFB1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A455A7B166795A700AAAFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A455A90166795A700AAAFB1 /* main.m in Sources */,
+				1A455A97166795A700AAAFB1 /* JRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A455A8C166795A700AAAFB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A455A8D166795A700AAAFB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A455A92166795A700AAAFB1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A455A93166795A700AAAFB1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1A455A98166795A700AAAFB1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A455A99166795A700AAAFB1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A455A9B166795A700AAAFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1A455A9C166795A700AAAFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A455A9E166795A700AAAFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrettifyParser/PrettifyParser-Prefix.pch";
+				INFOPLIST_FILE = "PrettifyParser/PrettifyParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A455A9F166795A700AAAFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrettifyParser/PrettifyParser-Prefix.pch";
+				INFOPLIST_FILE = "PrettifyParser/PrettifyParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A455A79166795A700AAAFB1 /* Build configuration list for PBXProject "PrettifyParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A455A9B166795A700AAAFB1 /* Debug */,
+				1A455A9C166795A700AAAFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A455A9D166795A700AAAFB1 /* Build configuration list for PBXNativeTarget "PrettifyParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A455A9E166795A700AAAFB1 /* Debug */,
+				1A455A9F166795A700AAAFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A455A76166795A700AAAFB1 /* Project object */;
+}
